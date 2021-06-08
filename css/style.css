@@ -4,3 +4,27 @@
       padding: 0;
       
 }
+
+body{
+      background-color: #fff5e2;
+}
+
+.bg-top { 
+      background-color: #fdbb40;
+}
+
+.img-top{
+      width: 200px;
+      height: auto;
+}
+
+.img-top img{
+      width: 100%;
+      height: auto;
+
+}
+
+      
+
+
+

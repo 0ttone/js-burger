@@ -2,38 +2,63 @@
 <html lang="en">
 <head>
       <meta charset="UTF-8">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
       <link rel="stylesheet" href="./css/style.css">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>js-burger</title>
 </head>
 <body>
-      <pre>Il programma dovrà consentire di calcolare il prezzo del panino selezionando o deselezionando gli ingredienti proposti.</pre>
-      <!-- per ora solo checkbox funzionanti con i nomi almeno -->
-      <form>
-            <input type="checkbox" name="item" class="ingredients" id="Cheese" value="12">
-            <label for="Cheese"> add</label>
-            <input type="checkbox" name="item" class="ingredients" id="Tomato" value="8">
-            <label for="Tomato"> add</label>
-            <input type="checkbox" name="item" class="ingredients" id="Egg" value="10">
-            <label for="Egg"> add</label>
-            <input type="checkbox" name="item" class="ingredients" id="Lettuce" value="6">
-            <label for="Lettuce"> add</label>
-            <input type="checkbox" name="item" class="ingredients" id="Mustard" value="4">
-            <label for="Mustard"> add</label>
-            <input type="checkbox" name="item" class="ingredients" id="Ketchup" value="4">
-            <label for="Ketchup"> add</label>
-
-            <input type="text" name="discount"  id="discount" >
-            <label for="discount"> Coupon</label>
-
-      </form>
-
-      <button id="addIngredientPrice">Add</button>
-   
-      <div id="sumPrice"></div>
+      <main>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-6 bg-top">
+                              <div class="row header">
+                                    <div class="col-8">
+                                          <h1 class="fw-bolder pb-3 mt-3">Create Your Burger</h1>    
+                                    </div>
+                                    <div class="col-4">
+                                          <div class="img-top">
+                                                <img src="..img/burger-top.png" alt="burger">
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                                    
+                             
 
 
+                  
+            
+
+            
+                        <form>
+                              <input type="checkbox" name="item" class="ingredients" id="Cheese" value="12">
+                              <label for="Cheese"> add</label>
+                              <input type="checkbox" name="item" class="ingredients" id="Tomato" value="8">
+                              <label for="Tomato"> add</label>
+                              <input type="checkbox" name="item" class="ingredients" id="Egg" value="10">
+                              <label for="Egg"> add</label>
+                              <input type="checkbox" name="item" class="ingredients" id="Lettuce" value="6">
+                              <label for="Lettuce"> add</label>
+                              <input type="checkbox" name="item" class="ingredients" id="Mustard" value="4">
+                              <label for="Mustard"> add</label>
+                              <input type="checkbox" name="item" class="ingredients" id="Ketchup" value="4">
+                              <label for="Ketchup"> add</label>
+                  
+                              <input type="text" name="discount"  id="discount" >
+                              <label for="discount"> Coupon</label>
+                  
+                        </form>
+                  
+                        <button id="addIngredientPrice">Add</button>
+                  
+                        <div id="sumPrice"></div>
+            </div>
+
+      </main>      
+      
 
 
 
