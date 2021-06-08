@@ -1,9 +1,9 @@
-* {
+/* * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      
-}
+       */
+/* } */
 
 body{
       background-color: #fff5e2;
@@ -11,6 +11,10 @@ body{
 
 .bg-top { 
       background-color: #fdbb40;
+}
+
+.bg-main{
+      background-color: #ffffff;
 }
 
 .img-top{
@@ -22,6 +26,10 @@ body{
       width: 100%;
       height: auto;
 
+}
+
+.margin0{
+      margin: 0
 }
 
       
