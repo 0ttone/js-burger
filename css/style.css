@@ -17,6 +17,14 @@ body{
       background-color: #ffffff;
 }
 
+.bg-footer{
+      background-color: #d33359;
+}
+
+.font-white{
+      color:white;
+}
+
 .img-top{
       width: 200px;
       height: auto;
@@ -31,6 +39,8 @@ body{
 .margin0{
       margin: 0
 }
+
+
 
 
       

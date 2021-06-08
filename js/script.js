@@ -50,9 +50,12 @@ sumIngredientPrice.addEventListener('click', function (){
             discountVal = sumPriceInt / 100 * discountPerc ;
             sumPriceInt -= discountVal
             console.log()
+      
+            sumPrice.innerHTML = sumPriceInt
+      
       }
 
 
-      sumPrice.innerHTML = sumPriceInt
+      // sumPrice.innerHTML = sumPriceInt
 
 })
