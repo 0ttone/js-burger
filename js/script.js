@@ -1,7 +1,6 @@
 //Il programma dovrà consentire di calcolare il prezzo del panino 
 //selezionando o deselezionando gli ingredienti proposti.
 
-
 //variabile da assegnare al bottone che aggiunge checkbox collegati a prezzo e prodotto
 var sumIngredientPrice = document.getElementById('addIngredientPrice');
 
@@ -28,12 +27,12 @@ sumIngredientPrice.addEventListener('click', function (){
             if (sumIngredients[i].checked){
                   sumPriceInt += parseInt(sumIngredients[i].value)
             
-                  console.log(sumPriceInt)
+                  //console.log(sumPriceInt)
             }
       
       }
       //sommo e stampo nell HTML (fuori dal ciclo for)
-      sumPrice.innerHTML = 'il risultato è ' + sumPriceInt;
+      sumPrice.innerHTML = 'il risultato è '  + sumPriceInt;
 
 
       //porzione sconto variabile sconto inserita
@@ -49,13 +48,13 @@ sumIngredientPrice.addEventListener('click', function (){
       if(discountInputCode.value === discountCode){
             discountVal = sumPriceInt / 100 * discountPerc ;
             sumPriceInt -= discountVal
-            console.log()
+            
       
-            sumPrice.innerHTML = sumPriceInt
+          //  sumPrice.innerHTML = sumPriceInt
       
       }
 
 
-      // sumPrice.innerHTML = sumPriceInt
+      sumPrice.innerHTML = sumPriceInt + 50
 
 })
